@@ -46,17 +46,17 @@ class TastesViewController: UIViewController {
     }
     
     private func createTasteViews() -> [TasteView] {
-        let irishCream = configureTasteView(imageName: "irishCream", tasteDescription: "Яркий сливочно — кофейный аромат ирландского крема , терпкий и благородный вкус который не оставит вас равнодушным")
+        let irishCream = configureTasteView(imageName: "irishCream", tasteDescription: "Яркий сливочно — кофейный аромат ирландского крема, терпкий и благородный вкус, который не оставит вас равнодушным")
         
         let peach = configureTasteView(imageName: "peach", tasteDescription: "Это нежная бархатистая мякоть спелого персика. Он в меру сладок, насыщен и ненавязчив. Отлично курится как в соло, так и во фруктовых миксах")
 
-        let raspberry = configureTasteView(imageName: "raspberry", tasteDescription: "Ярко выраженный аромат ягод малины с удивительными нотками сладкого домашнего варения позволит вам окунуться в воспоминания летних каникул у бабушки в деревне, где можно было вдоволь насладиться этими прекрасными ягодами")
+        let raspberry = configureTasteView(imageName: "raspberry", tasteDescription: "Ярко выраженный аромат ягод малины с удивительными нотками сладкого, домашнего варенья позволит вам окунуться в воспоминания летних каникул у бабушки в деревне, где можно было вдоволь насладиться этими прекрасными ягодами")
 
-        let lemongrass = configureTasteView(imageName: "lemongrass", tasteDescription: "Обладает ярким лимонным вкусом с лёгким оттенком имбиря, отдающим свежестью благодаря леденцовым ноткам")
+        let lemongrass = configureTasteView(imageName: "lemongrass", tasteDescription: "Обладает ярким лимонным вкусом с лёгким оттенком имбиря, отдающим свежестью, благодаря леденцовым ноткам")
         
         let kashmir = configureTasteView(imageName: "kashmir", tasteDescription: "Пряный, насыщенно-душистый аромат специй, который никого не оставит равнодушным")
         
-        let cherry = configureTasteView(imageName: "cherry", tasteDescription: "Вкус спелой, сочной, сладкой мякоти вишни , который дополняет небольшая терпкость косточки")
+        let cherry = configureTasteView(imageName: "cherry", tasteDescription: "Вкус спелой, сочной, сладкой мякоти вишни, который дополняет небольшая терпкость косточки")
         
         let blueberry = configureTasteView(imageName: "blueberry", tasteDescription: "Ароматный кисло-сладкий вкус сочных ягод черники")
         
@@ -76,7 +76,7 @@ class TastesViewController: UIViewController {
         
         let cactusFig = configureTasteView(imageName: "cactusFig", tasteDescription: "Довольно редкий фрукт, напоминающий, по некоторым мнениям, перезрелый арбуз. Свежий и сладкий, легкий и сочный")
         
-        let pear = configureTasteView(imageName: "pear", tasteDescription: "Натуральная нежность сахарной груши с сочной мякотью… Летняя и такая манящая")
+        let pear = configureTasteView(imageName: "pear", tasteDescription: "Натуральная нежность сахарной груши с сочной мякотью. Летняя и такая манящая...")
         
         let belgianWaffle = configureTasteView(imageName: "belgianWaffle", tasteDescription: "Изумительная сладость вафель со сливочно-карамельным топпингом, нотками ванили и сахара. Всё это вызывает в памяти запахи свежей выпечки")
         
@@ -86,13 +86,13 @@ class TastesViewController: UIViewController {
         
         let lemon = configureTasteView(imageName: "lemon", tasteDescription: "Яркий, но не обжигающий вкус лимона, с терпкими нотками цедры. Освежающий, бодрящий — лимон настоящий")
         
-        let mango = configureTasteView(imageName: "mango", tasteDescription: "Уникальное сочетание сочного сладкого манго с лёгкой травянистой нотой")
+        let mango = configureTasteView(imageName: "mango", tasteDescription: "Уникальное сочетание сочного сладкого манго с лёгкой травянистой ноткой")
         
         let nutsMix = configureTasteView(imageName: "nutsMix", tasteDescription: "Сбалансированный микс из разных видов орехов: тут и лёгкая сладость кешью, и неповторимый вкус арахиса в сочетании с обжаренным фундуком")
         
         let moroz = configureTasteView(imageName: "moroz", tasteDescription: "Эффект дикого холода, который любой микс сделает ледяным. Советуем добавлять 10-30% на забивку")
         
-        let thyme = configureTasteView(imageName: "thyme", tasteDescription: "Благодаря чабрецу обладает ярко выраженным, немного горьковатым вкусом с оригинальными пряными нотками, а бергамот добавит приятную кислинку")
+        let thyme = configureTasteView(imageName: "thyme", tasteDescription: "Благодаря чабрецу обладает ярко выраженным, немного горьковатым вкусом с оригинальными, пряными нотками, а бергамот добавит приятную кислинку")
         
         let cola = configureTasteView(imageName: "cola", tasteDescription: "Сладкий вкус легендарного напитка, в меру карамельный, с легким пряным послевкусием")
         

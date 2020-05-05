@@ -9,21 +9,53 @@
 /* Begin PBXBuildFile section */
 		A5198773245C6745006FE9D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5198772245C6745006FE9D0 /* AppDelegate.swift */; };
 		A5198775245C6745006FE9D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5198774245C6745006FE9D0 /* SceneDelegate.swift */; };
-		A5198777245C6745006FE9D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5198776245C6745006FE9D0 /* ViewController.swift */; };
 		A519877A245C6745006FE9D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5198778245C6745006FE9D0 /* Main.storyboard */; };
 		A519877C245C674A006FE9D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A519877B245C674A006FE9D0 /* Assets.xcassets */; };
 		A519877F245C674A006FE9D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A519877D245C674A006FE9D0 /* LaunchScreen.storyboard */; };
+		A519878B245C6EF0006FE9D0 /* justgif.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5198786245C6EEE006FE9D0 /* justgif.gif */; };
+		A519878C245C6EF0006FE9D0 /* Air.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5198787245C6EEF006FE9D0 /* Air.gif */; };
+		A519878D245C6EF0006FE9D0 /* Earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5198788245C6EEF006FE9D0 /* Earth.gif */; };
+		A519878E245C6EF0006FE9D0 /* Fire.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5198789245C6EEF006FE9D0 /* Fire.gif */; };
+		A519878F245C6EF0006FE9D0 /* Water.gif in Resources */ = {isa = PBXBuildFile; fileRef = A519878A245C6EF0006FE9D0 /* Water.gif */; };
+		A5A49569245C7012009AAB21 /* Image + Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A49568245C7012009AAB21 /* Image + Gif.swift */; };
+		A5A4956C245C71DB009AAB21 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A4956B245C71DB009AAB21 /* PageViewController.swift */; };
+		A5A4956E245D9CFF009AAB21 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A4956D245D9CFF009AAB21 /* StartViewController.swift */; };
+		A5E99E13245DAA8300C146D9 /* SingleElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E99E12245DAA8300C146D9 /* SingleElementView.swift */; };
+		A5E99E15245DAA9000C146D9 /* SingleElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E99E14245DAA9000C146D9 /* SingleElementView.xib */; };
+		A5E99E17245F35E500C146D9 /* SingleElementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E99E16245F35E500C146D9 /* SingleElementViewController.swift */; };
+		A5E99E212461692B00C146D9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E99E202461692B00C146D9 /* AboutViewController.swift */; };
+		A5E99E2324616C0B00C146D9 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E99E2224616C0B00C146D9 /* AboutView.xib */; };
+		A5E99E2524616C1500C146D9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E99E2424616C1500C146D9 /* AboutView.swift */; };
+		A5E99E27246176B000C146D9 /* TastesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E99E26246176B000C146D9 /* TastesViewController.swift */; };
+		A5E99E292461775D00C146D9 /* TasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E99E282461775D00C146D9 /* TasteView.swift */; };
+		A5E99E2B2461776B00C146D9 /* TasteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E99E2A2461776B00C146D9 /* TasteView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A519876F245C6745006FE9D0 /* ElementApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElementApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5198772245C6745006FE9D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5198774245C6745006FE9D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5198776245C6745006FE9D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5198779245C6745006FE9D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A519877B245C674A006FE9D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A519877E245C674A006FE9D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5198780245C674A006FE9D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5198786245C6EEE006FE9D0 /* justgif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = justgif.gif; sourceTree = "<group>"; };
+		A5198787245C6EEF006FE9D0 /* Air.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Air.gif; sourceTree = "<group>"; };
+		A5198788245C6EEF006FE9D0 /* Earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Earth.gif; sourceTree = "<group>"; };
+		A5198789245C6EEF006FE9D0 /* Fire.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Fire.gif; sourceTree = "<group>"; };
+		A519878A245C6EF0006FE9D0 /* Water.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Water.gif; sourceTree = "<group>"; };
+		A5A49568245C7012009AAB21 /* Image + Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image + Gif.swift"; sourceTree = "<group>"; };
+		A5A4956B245C71DB009AAB21 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		A5A4956D245D9CFF009AAB21 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A5E99E12245DAA8300C146D9 /* SingleElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleElementView.swift; sourceTree = "<group>"; };
+		A5E99E14245DAA9000C146D9 /* SingleElementView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleElementView.xib; sourceTree = "<group>"; };
+		A5E99E16245F35E500C146D9 /* SingleElementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleElementViewController.swift; sourceTree = "<group>"; };
+		A5E99E202461692B00C146D9 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		A5E99E2224616C0B00C146D9 /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		A5E99E2424616C1500C146D9 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		A5E99E26246176B000C146D9 /* TastesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastesViewController.swift; sourceTree = "<group>"; };
+		A5E99E282461775D00C146D9 /* TasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteView.swift; sourceTree = "<group>"; };
+		A5E99E2A2461776B00C146D9 /* TasteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TasteView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +88,87 @@
 		A5198771245C6745006FE9D0 /* ElementApp */ = {
 			isa = PBXGroup;
 			children = (
-				A5198772245C6745006FE9D0 /* AppDelegate.swift */,
-				A5198774245C6745006FE9D0 /* SceneDelegate.swift */,
-				A5198776245C6745006FE9D0 /* ViewController.swift */,
-				A5198778245C6745006FE9D0 /* Main.storyboard */,
-				A519877B245C674A006FE9D0 /* Assets.xcassets */,
-				A519877D245C674A006FE9D0 /* LaunchScreen.storyboard */,
+				A5E99E1B245F390700C146D9 /* Data */,
+				A5E99E1A245F38FD00C146D9 /* Presentation */,
+				A5E99E18245F38C900C146D9 /* Default */,
+				A5E99E19245F38ED00C146D9 /* Extensions */,
 				A5198780245C674A006FE9D0 /* Info.plist */,
 			);
 			path = ElementApp;
+			sourceTree = "<group>";
+		};
+		A5198790245C6EF3006FE9D0 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				A5198787245C6EEF006FE9D0 /* Air.gif */,
+				A5198788245C6EEF006FE9D0 /* Earth.gif */,
+				A5198789245C6EEF006FE9D0 /* Fire.gif */,
+				A5198786245C6EEE006FE9D0 /* justgif.gif */,
+				A519878A245C6EF0006FE9D0 /* Water.gif */,
+			);
+			path = Gifs;
+			sourceTree = "<group>";
+		};
+		A5A4956A245C71CB009AAB21 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5A4956D245D9CFF009AAB21 /* StartViewController.swift */,
+				A5A4956B245C71DB009AAB21 /* PageViewController.swift */,
+				A5E99E16245F35E500C146D9 /* SingleElementViewController.swift */,
+				A5E99E202461692B00C146D9 /* AboutViewController.swift */,
+				A5E99E26246176B000C146D9 /* TastesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A5E99E11245DA9ED00C146D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5E99E14245DAA9000C146D9 /* SingleElementView.xib */,
+				A5E99E12245DAA8300C146D9 /* SingleElementView.swift */,
+				A5E99E2224616C0B00C146D9 /* AboutView.xib */,
+				A5E99E2424616C1500C146D9 /* AboutView.swift */,
+				A5E99E2A2461776B00C146D9 /* TasteView.xib */,
+				A5E99E282461775D00C146D9 /* TasteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5E99E18245F38C900C146D9 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				A519877B245C674A006FE9D0 /* Assets.xcassets */,
+				A5198772245C6745006FE9D0 /* AppDelegate.swift */,
+				A5198774245C6745006FE9D0 /* SceneDelegate.swift */,
+				A519877D245C674A006FE9D0 /* LaunchScreen.storyboard */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		A5E99E19245F38ED00C146D9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5A49568245C7012009AAB21 /* Image + Gif.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5E99E1A245F38FD00C146D9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A5198778245C6745006FE9D0 /* Main.storyboard */,
+				A5E99E11245DA9ED00C146D9 /* Views */,
+				A5A4956A245C71CB009AAB21 /* ViewControllers */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A5E99E1B245F390700C146D9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A5198790245C6EF3006FE9D0 /* Gifs */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +229,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E99E2324616C0B00C146D9 /* AboutView.xib in Resources */,
+				A519878F245C6EF0006FE9D0 /* Water.gif in Resources */,
 				A519877F245C674A006FE9D0 /* LaunchScreen.storyboard in Resources */,
+				A5E99E2B2461776B00C146D9 /* TasteView.xib in Resources */,
 				A519877C245C674A006FE9D0 /* Assets.xcassets in Resources */,
+				A519878E245C6EF0006FE9D0 /* Fire.gif in Resources */,
 				A519877A245C6745006FE9D0 /* Main.storyboard in Resources */,
+				A519878D245C6EF0006FE9D0 /* Earth.gif in Resources */,
+				A519878B245C6EF0006FE9D0 /* justgif.gif in Resources */,
+				A5E99E15245DAA9000C146D9 /* SingleElementView.xib in Resources */,
+				A519878C245C6EF0006FE9D0 /* Air.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +250,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5198777245C6745006FE9D0 /* ViewController.swift in Sources */,
+				A5A49569245C7012009AAB21 /* Image + Gif.swift in Sources */,
+				A5A4956C245C71DB009AAB21 /* PageViewController.swift in Sources */,
 				A5198773245C6745006FE9D0 /* AppDelegate.swift in Sources */,
 				A5198775245C6745006FE9D0 /* SceneDelegate.swift in Sources */,
+				A5E99E27246176B000C146D9 /* TastesViewController.swift in Sources */,
+				A5E99E292461775D00C146D9 /* TasteView.swift in Sources */,
+				A5E99E2524616C1500C146D9 /* AboutView.swift in Sources */,
+				A5A4956E245D9CFF009AAB21 /* StartViewController.swift in Sources */,
+				A5E99E17245F35E500C146D9 /* SingleElementViewController.swift in Sources */,
+				A5E99E212461692B00C146D9 /* AboutViewController.swift in Sources */,
+				A5E99E13245DAA8300C146D9 /* SingleElementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5MGV8S24P;
 				INFOPLIST_FILE = ElementApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5MGV8S24P;
 				INFOPLIST_FILE = ElementApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -46,83 +46,75 @@ class TastesViewController: UIViewController {
     }
     
     private func createTasteViews() -> [TasteView] {
+        let irishCream = configureTasteView(imageName: "irishCream", tasteDescription: "Яркий сливочно — кофейный аромат ирландского крема , терпкий и благородный вкус который не оставит вас равнодушным")
         
-        let irishCream = TasteView()
-        irishCream.mainImageView.image = UIImage(named: "irishCream")
+        let peach = configureTasteView(imageName: "peach", tasteDescription: "Это нежная бархатистая мякоть спелого персика. Он в меру сладок, насыщен и ненавязчив. Отлично курится как в соло, так и во фруктовых миксах")
+
+        let raspberry = configureTasteView(imageName: "raspberry", tasteDescription: "Ярко выраженный аромат ягод малины с удивительными нотками сладкого домашнего варения позволит вам окунуться в воспоминания летних каникул у бабушки в деревне, где можно было вдоволь насладиться этими прекрасными ягодами")
+
+        let lemongrass = configureTasteView(imageName: "lemongrass", tasteDescription: "Обладает ярким лимонным вкусом с лёгким оттенком имбиря, отдающим свежестью благодаря леденцовым ноткам")
         
-        let peach = TasteView()
-        peach.mainImageView.image = UIImage(named: "peach")
+        let kashmir = configureTasteView(imageName: "kashmir", tasteDescription: "Пряный, насыщенно-душистый аромат специй, который никого не оставит равнодушным")
         
-        let raspberry = TasteView()
-        raspberry.mainImageView.image = UIImage(named: "raspberry")
+        let cherry = configureTasteView(imageName: "cherry", tasteDescription: "Вкус спелой, сочной, сладкой мякоти вишни , который дополняет небольшая терпкость косточки")
         
-        let lemongrass = TasteView()
-        lemongrass.mainImageView.image = UIImage(named: "lemongrass")
+        let blueberry = configureTasteView(imageName: "blueberry", tasteDescription: "Ароматный кисло-сладкий вкус сочных ягод черники")
         
-        let kashmir = TasteView()
-        kashmir.mainImageView.image = UIImage(named: "kashmir")
+        let basil = configureTasteView(imageName: "basil", tasteDescription: "Душистый, свежий, чуть сладковатый, вкус только что сорванного базилика с пряными и немного терпкими нотками")
         
-        let cherry = TasteView()
-        cherry.mainImageView.image = UIImage(named: "cherry")
+        let grapefruit = configureTasteView(imageName: "grapefruit", tasteDescription: "Микс, в котором пикантная горчинка грейпфрута органично сочетается с лёгкой сладостью помело")
         
-        let blueberry = TasteView()
-        blueberry.mainImageView.image = UIImage(named: "blueberry")
+        let currant = configureTasteView(imageName: "currant", tasteDescription: "Насыщенный сладкий вкус чёрной смородины и яркая бодрящая кислинка красной — это баланс между лёгкостью и насыщенностью, мягкостью и терпкостью")
         
-        let basil = TasteView()
-        basil.mainImageView.image = UIImage(named: "basil")
+        let watermelonHolls = configureTasteView(imageName: "watermelonHolls", tasteDescription: "Тонкий летний вкус арбуза в сочетании с приятным и освежающим холодком")
         
-        let grapefruit = TasteView()
-        grapefruit.mainImageView.image = UIImage(named: "grapefruit")
+        let fir = configureTasteView(imageName: "fir", tasteDescription: "Сибирская пихта — это яркий и насыщенный хвойно-смолистый аромат, который погружает вас в гущу леса")
         
-        let currant = TasteView()
-        currant.mainImageView.image = UIImage(named: "currant")
+        let lychee = configureTasteView(imageName: "lychee", tasteDescription: "Экзотический фрукт лакомый, сладкий, с небольшой кислинкой и клубничным послевкусием. Невесомый, сложный, экстравагантный")
         
-        let watermelonHolls = TasteView()
-        watermelonHolls.mainImageView.image = UIImage(named: "watermelonHolls")
+        let kalamansi = configureTasteView(imageName: "kalamansi", tasteDescription: "Приятная цитрусовая кислинка, свежесть и лёгкость в миксе из лимона, кумквата и лайма")
         
-        let fir = TasteView()
-        fir.mainImageView.image = UIImage(named: "fir")
+        let cactusFig = configureTasteView(imageName: "cactusFig", tasteDescription: "Довольно редкий фрукт, напоминающий, по некоторым мнениям, перезрелый арбуз. Свежий и сладкий, легкий и сочный")
         
-        let lychee = TasteView()
-        lychee.mainImageView.image = UIImage(named: "lychee")
+        let pear = configureTasteView(imageName: "pear", tasteDescription: "Натуральная нежность сахарной груши с сочной мякотью… Летняя и такая манящая")
         
-        let kalamansi = TasteView()
-        kalamansi.mainImageView.image = UIImage(named: "kalamansi")
+        let belgianWaffle = configureTasteView(imageName: "belgianWaffle", tasteDescription: "Изумительная сладость вафель со сливочно-карамельным топпингом, нотками ванили и сахара. Всё это вызывает в памяти запахи свежей выпечки")
         
-        let cactusFig = TasteView()
-        cactusFig.mainImageView.image = UIImage(named: "cactusFig")
+        let feijoa = configureTasteView(imageName: "feijoa", tasteDescription: "Сладкая свежесть и лёгкая приторность в сбалансированной комбинации из ананаса, киви и зелёной недоспелой клубники")
         
-        let pear = TasteView()
-        pear.mainImageView.image = UIImage(named: "pear")
+        let wildberryMors = configureTasteView(imageName: "wildberryMors", tasteDescription: "В центре микса насыщенный букет из спелых лесных ягод. Преобладание клюквы дает кислинку, а брусника и морошка делают аромат богаче")
         
-        let belgianWaffle = TasteView()
-        belgianWaffle.mainImageView.image = UIImage(named: "belgianWaffle")
+        let lemon = configureTasteView(imageName: "lemon", tasteDescription: "Яркий, но не обжигающий вкус лимона, с терпкими нотками цедры. Освежающий, бодрящий — лимон настоящий")
         
-        let feijoa = TasteView()
-        feijoa.mainImageView.image = UIImage(named: "feijoa")
+        let mango = configureTasteView(imageName: "mango", tasteDescription: "Уникальное сочетание сочного сладкого манго с лёгкой травянистой нотой")
         
-        let wildberryMors = TasteView()
-        wildberryMors.mainImageView.image = UIImage(named: "wildberryMors")
+        let nutsMix = configureTasteView(imageName: "nutsMix", tasteDescription: "Сбалансированный микс из разных видов орехов: тут и лёгкая сладость кешью, и неповторимый вкус арахиса в сочетании с обжаренным фундуком")
         
-        let lemon = TasteView()
-        lemon.mainImageView.image = UIImage(named: "lemon")
+        let moroz = configureTasteView(imageName: "moroz", tasteDescription: "Эффект дикого холода, который любой микс сделает ледяным. Советуем добавлять 10-30% на забивку")
         
-        let mango = TasteView()
-        mango.mainImageView.image = UIImage(named: "mango")
+        let thyme = configureTasteView(imageName: "thyme", tasteDescription: "Благодаря чабрецу обладает ярко выраженным, немного горьковатым вкусом с оригинальными пряными нотками, а бергамот добавит приятную кислинку")
         
-        let nutsMix = TasteView()
-        nutsMix.mainImageView.image = UIImage(named: "nutsMix")
-        
-        let moroz = TasteView()
-        moroz.mainImageView.image = UIImage(named: "moroz")
-        
-        let thyme = TasteView()
-        thyme.mainImageView.image = UIImage(named: "thyme")
-        
-        let cola = TasteView()
-        cola.mainImageView.image = UIImage(named: "cola")
+        let cola = configureTasteView(imageName: "cola", tasteDescription: "Сладкий вкус легендарного напитка, в меру карамельный, с легким пряным послевкусием")
         
         return [irishCream, peach, raspberry, lemongrass, kashmir, cherry, blueberry, basil, grapefruit, currant, watermelonHolls, fir, lychee, kalamansi, cactusFig, pear, belgianWaffle, feijoa, wildberryMors, lemon, mango, nutsMix, moroz, thyme, cola]
+    }
+    
+    private func configureTasteView(imageName: String, tasteDescription: String) -> TasteView {
+        let tasteView = TasteView()
+        let image = UIImage(named: imageName)
+        tasteView.mainImageView.image = image
+        tasteView.action = { [weak self] in
+            guard let `self` = self else { return }
+            self.navigateToSingleTaste(image: image, tasteDescription: tasteDescription)
+        }
+        return tasteView
+    }
+    
+    private func navigateToSingleTaste(image: UIImage?, tasteDescription: String) {
+        let controller = storyboard?.instantiateViewController(withIdentifier: "SingleTasteViewController") as! SingleTasteViewController
+        controller.tasteImage = image
+        controller.tasteDescription = tasteDescription
+        self.navigationController?.pushViewController(controller, animated: true)
     }
     
 }

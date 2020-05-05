@@ -13,6 +13,8 @@ class TasteView: UIView {
     @IBOutlet var content: UIView!
     @IBOutlet weak var mainImageView: UIImageView!
     
+    var action: (() -> Void)?
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
@@ -28,6 +30,16 @@ class TasteView: UIView {
         addSubview(content)
         content.frame = self.bounds
         content.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        configureRecognizer()
+    }
+    
+    private func configureRecognizer() {
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapHandler))
+        self.content.addGestureRecognizer(tapRecognizer)
+    }
+    
+    @objc private func tapHandler() {
+        action?()
     }
     
 }

@@ -275,5 +275,47 @@
             </objects>
             <point key="canvasLocation" x="3163.7681159420295" y="131.91964285714286"/>
         </scene>
+        <!--Single Taste View Controller-->
+        <scene sceneID="FYn-cV-Ehy">
+            <objects>
+                <viewController restorationIdentifier="SingleTasteViewController" storyboardIdentifier="SingleTasteViewController" id="rmN-Ko-XiG" customClass="SingleTasteViewController" customModule="ElementApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jqs-Yk-Pr8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oPj-bC-BKa">
+                                <rect key="frame" x="30" y="64" width="354" height="491"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="491" id="XbE-jv-DoF"/>
+                                    <constraint firstAttribute="width" constant="354" id="ZZ1-7Y-8kd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c59-xj-QVk">
+                                <rect key="frame" x="50" y="605" width="314" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="fHk-8g-MX5" firstAttribute="trailing" secondItem="oPj-bC-BKa" secondAttribute="trailing" constant="30" id="Fdn-un-N6q"/>
+                            <constraint firstItem="c59-xj-QVk" firstAttribute="top" secondItem="oPj-bC-BKa" secondAttribute="bottom" constant="50" id="G7Z-UO-iJg"/>
+                            <constraint firstItem="c59-xj-QVk" firstAttribute="leading" secondItem="fHk-8g-MX5" secondAttribute="leading" constant="50" id="Ivg-31-wrf"/>
+                            <constraint firstItem="oPj-bC-BKa" firstAttribute="top" secondItem="fHk-8g-MX5" secondAttribute="top" constant="20" id="LeK-xl-9MK"/>
+                            <constraint firstItem="oPj-bC-BKa" firstAttribute="leading" secondItem="fHk-8g-MX5" secondAttribute="leading" constant="30" id="Wwy-c9-B4q"/>
+                            <constraint firstItem="fHk-8g-MX5" firstAttribute="trailing" secondItem="c59-xj-QVk" secondAttribute="trailing" constant="50" id="ao6-Vd-mIT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fHk-8g-MX5"/>
+                    </view>
+                    <connections>
+                        <outlet property="tasteDescriptionLabel" destination="c59-xj-QVk" id="uFh-Us-yf6"/>
+                        <outlet property="tasteImageView" destination="oPj-bC-BKa" id="Maj-cS-Ajs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2JL-lj-ZCP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3920" y="132"/>
+        </scene>
     </scenes>
 </document>

@@ -29,6 +29,7 @@
 		A5E99E27246176B000C146D9 /* TastesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E99E26246176B000C146D9 /* TastesViewController.swift */; };
 		A5E99E292461775D00C146D9 /* TasteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E99E282461775D00C146D9 /* TasteView.swift */; };
 		A5E99E2B2461776B00C146D9 /* TasteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5E99E2A2461776B00C146D9 /* TasteView.xib */; };
+		A5E99E2D24618BEE00C146D9 /* SingleTasteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E99E2C24618BEE00C146D9 /* SingleTasteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		A5E99E26246176B000C146D9 /* TastesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TastesViewController.swift; sourceTree = "<group>"; };
 		A5E99E282461775D00C146D9 /* TasteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteView.swift; sourceTree = "<group>"; };
 		A5E99E2A2461776B00C146D9 /* TasteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TasteView.xib; sourceTree = "<group>"; };
+		A5E99E2C24618BEE00C146D9 /* SingleTasteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTasteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				A5E99E16245F35E500C146D9 /* SingleElementViewController.swift */,
 				A5E99E202461692B00C146D9 /* AboutViewController.swift */,
 				A5E99E26246176B000C146D9 /* TastesViewController.swift */,
+				A5E99E2C24618BEE00C146D9 /* SingleTasteViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				A5A4956C245C71DB009AAB21 /* PageViewController.swift in Sources */,
 				A5198773245C6745006FE9D0 /* AppDelegate.swift in Sources */,
 				A5198775245C6745006FE9D0 /* SceneDelegate.swift in Sources */,
+				A5E99E2D24618BEE00C146D9 /* SingleTasteViewController.swift in Sources */,
 				A5E99E27246176B000C146D9 /* TastesViewController.swift in Sources */,
 				A5E99E292461775D00C146D9 /* TasteView.swift in Sources */,
 				A5E99E2524616C1500C146D9 /* AboutView.swift in Sources */,

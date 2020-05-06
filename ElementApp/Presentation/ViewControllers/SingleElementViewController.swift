@@ -45,7 +45,7 @@ class SingleElementViewController: UIViewController {
             setImageAndDescription(image: UIImage(named: "MainLogo"), description: description)
             mainImageView.alpha = 0.5
         case .Water:
-            let description = "Вода - средняя линейка Element. Прекрасный выбор для любителей одновременно вкусного кальяна и приятных ощущений от накура. Одно прекрасно дополняет другое. Взяв 4 25-х угля можно получить кальян, который мягко вскружит голову и будет приятно удивлять вкусными аромками. Главное - не забывать продувать ;) Советую попробовать грейпфрут и помело 50 на 50 с персиком!"
+            let description = "Вода - средняя линейка Element. Прекрасный выбор для любителей одновременно вкусного кальяна и приятных ощущений от накура. Одно прекрасно дополняет другое. Главное - не забывать продувать ;) Советую попробовать грейпфрут и помело 50 на 50 с персиком!"
             setImageAndDescription(image: UIImage(named: "SingleWater"), description: description)
         case .none:
             print("whoops")

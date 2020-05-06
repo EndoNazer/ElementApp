@@ -161,7 +161,6 @@
                             <constraint firstItem="3J1-Ch-ta0" firstAttribute="leading" secondItem="yBU-eh-d03" secondAttribute="leading" constant="50" id="D67-Rm-f4x"/>
                             <constraint firstItem="yBU-eh-d03" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="3J1-Ch-ta0" secondAttribute="bottom" constant="251.5" id="Fmp-ae-VJw"/>
                             <constraint firstItem="yBU-eh-d03" firstAttribute="trailing" secondItem="vPa-Mr-WNT" secondAttribute="trailing" constant="30" id="JRB-FW-c0D"/>
-                            <constraint firstItem="vPa-Mr-WNT" firstAttribute="width" secondItem="VUY-9N-nwg" secondAttribute="width" multiplier="0.855072" id="Jvj-t9-z1X"/>
                             <constraint firstItem="vPa-Mr-WNT" firstAttribute="leading" secondItem="yBU-eh-d03" secondAttribute="leading" constant="30" id="KtC-4R-LFL"/>
                             <constraint firstItem="yBU-eh-d03" firstAttribute="trailing" secondItem="3J1-Ch-ta0" secondAttribute="trailing" constant="50" id="Pm5-dE-kZ8"/>
                             <constraint firstItem="V3y-kL-s4g" firstAttribute="centerX" secondItem="VUY-9N-nwg" secondAttribute="centerX" id="SuO-Mi-7Ba"/>
@@ -303,7 +302,6 @@
                             <constraint firstItem="c59-xj-QVk" firstAttribute="leading" secondItem="fHk-8g-MX5" secondAttribute="leading" constant="50" id="Ivg-31-wrf"/>
                             <constraint firstItem="oPj-bC-BKa" firstAttribute="top" secondItem="fHk-8g-MX5" secondAttribute="top" constant="20" id="LeK-xl-9MK"/>
                             <constraint firstItem="oPj-bC-BKa" firstAttribute="height" secondItem="Jqs-Yk-Pr8" secondAttribute="height" multiplier="0.547991" id="OU1-OP-CZG"/>
-                            <constraint firstItem="oPj-bC-BKa" firstAttribute="width" secondItem="Jqs-Yk-Pr8" secondAttribute="width" multiplier="0.855072" id="UyH-zz-jHi"/>
                             <constraint firstItem="oPj-bC-BKa" firstAttribute="leading" secondItem="fHk-8g-MX5" secondAttribute="leading" constant="30" id="Wwy-c9-B4q"/>
                             <constraint firstItem="fHk-8g-MX5" firstAttribute="trailing" secondItem="c59-xj-QVk" secondAttribute="trailing" constant="50" id="ao6-Vd-mIT"/>
                             <constraint firstItem="fHk-8g-MX5" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="c59-xj-QVk" secondAttribute="bottom" constant="236.5" id="kB2-w8-jcj"/>
